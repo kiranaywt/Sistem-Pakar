@@ -12,7 +12,8 @@
                 <a class="nav-item nav-link active text-white"
                     href="<?php echo base_url("Frondend/frondend/index")?>">Beranda <span
                         class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link active text-white" href="Frondend/frondend/informasi_penyakit">Informasi
+                <a class="nav-item nav-link active text-white"
+                    href="<?php echo base_url("Frondend/frondend/informasi_penyakit")?>">Informasi
                     Penyakit</a>
                 <a class="nav-item nav-link active text-white"
                     href="<?php echo base_url("Frondend/frondend/biodata")?>">Konsultasi</a>

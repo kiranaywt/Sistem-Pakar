@@ -58,6 +58,18 @@ class Frondend extends CI_Controller {
 		$this->load->view("frondend/hasil_konsultasi");
 	}
 
+	public function informasi_penyakit()
+	{
+		//$show = $this->M_dashboard;
+
+		// $data = [
+		// 	"data_penyakit" => $show->hitung_data_penyakit()
+		// ];
+		// var_dump($data);
+		// die();
+		$this->load->view("frondend/informasi_penyakit");
+	}
+
 	public function tambah_data_biodata()
 	{
 		$show = $this->M_frondend;
