@@ -24,8 +24,8 @@
     <div class="container">
         <h2>Konsultasi</h2>
         <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="#">Konsultasi</a></li>
-            <li class="breadcrumb-item"><a href="#">Biodata</a></li>
+            <li class="breadcrumb-item"><a href="<?php echo base_url("Frondend/frondend/index")?>">Beranda</a></li>
+            <li class="breadcrumb-item"><a href="<?php echo base_url("Frondend/frondend/biodata")?>">Biodata</a></li>
             <li class="breadcrumb-item active" aria-current="page">Konsultasi</li>
         </ol>
     </div>
@@ -35,7 +35,8 @@
 <!-- konsultasi -->
 <div class="container mb-5">
     <h4>Pilih Sesuai Keadaan :</h4>
-    <p>Pilih beberapa yang sesuai dengan keadaan yang dialami kemudian pilih kondisi sesuai keadaan tersebut</p>
+    <p>Pilih beberapa faktor yang sesuai dengan keadaan yang dialami [centang] kemudian pilih kondisi sesuai keadaan
+        tersebut</p>
 </div>
 
 <div class="container">

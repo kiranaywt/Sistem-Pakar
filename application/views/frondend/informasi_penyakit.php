@@ -25,38 +25,55 @@
             <div class="row mb-5">
                 <div class="col-3">
                     <img src="<?php echo base_url() ?>assets/Gambar/foto_frondend/anak.png"
-                        style="height:250px; weidht:250px" class="img-thumbnail">
+                        style="height:300px; weidht:250px" class="img-thumbnail">
                 </div>
                 <div class="col-9">
                     <p class="text-justify">Stunting (kerdil) adalah kondisi dimana balita memiliki panjang atau tinggi
                         badan yang kurang
                         jika dibandingkan dengan umur. Kondisi ini diukur dengan panjang atau tinggi badan yang lebih
-                        dari minus dua standar deviasi median standar pertumbuhan anak dari WHO. Terdapat dampak gejala
+                        dari minus dua standar deviasi median standar pertumbuhan anak dari WHO.
+                    </p>
+                    <p class="text-justify">Terdapat dampak gejala
                         stunting jangka pendek meliputi hambatan perkembangan, penurunan fungsi kekebalan, penurunan
                         fungsi kognitif, dan gangguan sistem pembakaran. Sedangkan dampak gejala jangka panjang meliputi
                         obesitas, penurunan toleransi glukosa, penyakit jantung koroner, hipertensi, dan osteoporosis.
-                        Pada kasus seperti ini orang tua sangat berperan penting pada pola asuh anak.</p>
+                        Pada kasus seperti ini orang tua sangat berperan penting pada pola asuh anak.
+                    </p>
+                    <p class="text-justify">Oleh karena itu orang tua dapat melakukan evaluasi atau monitoring balita
+                        melalui
+                        faktor penyebab terjadinya stunting terutama di usia 0-24 bulan sehingga dapat mencegah
+                        terjadinya rawan
+                        stunting secara dini.
+                    </p>
+                </div>
+                <div>
+                    <button type="submit" class="btn btn-primary btn-sm float-right"
+                        href="<?php echo base_url("Frondend/frondend/biodata")?>">Mulai
+                        Konsultasi</button>
                 </div>
             </div>
 
             <table class="table table-bordered">
                 <thead>
-                    <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">First</th>
-                        <th scope="col">Last</th>
+                    <tr class="table-info">
+                        <th scope="col" class="text-center">NO</th>
+                        <th scope="col" class="text-center">Penyakit</th>
+                        <th scope="col" class="text-center">Detail</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
+                        <th scope="row" class="text-center">1</th>
+                        <td class="text-center">Rawan Stunting</td>
+                        <td>Rawan Stunting belum bisa benar-benar dikatakan stunting, namun dilihat dari sisi faktor
+                            penyebab stunting
+                            dikatakan rawan stunting. </td>
                     </tr>
                     <tr>
-                        <th scope="row">2</th>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
+                        <th scope="row" class="text-center">2</th>
+                        <td class="text-center">Aman Stunting</td>
+                        <td>Aman Stunting belum dikatakan benar-benar aman dari stunting namun dilihat dari faktor
+                            penyebab stunting dikatakan aman stunting.</td>
                     </tr>
             </table>
 

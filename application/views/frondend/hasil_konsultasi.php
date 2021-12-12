@@ -24,9 +24,10 @@
     <div class="container">
         <h2>Konsultasi</h2>
         <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="#">Konsultasi</a></li>
-            <li class="breadcrumb-item"><a href="#">Biodata</a></li>
-            <li class="breadcrumb-item"><a href="#">Konsultasi</a></li>
+            <li class="breadcrumb-item"><a href="<?php echo base_url("Frondend/frondend/index")?>">Beranda</a></li>
+            <li class="breadcrumb-item"><a href="<?php echo base_url("Frondend/frondend/biodata")?>">Biodata</a></li>
+            <li class="breadcrumb-item"><a href="<?php echo base_url("Frondend/frondend/konsultasi")?>">Konsultasi</a>
+            </li>
             <li class="breadcrumb-item active" aria-current="page"> Hasil Konsultasi</li>
         </ol>
     </div>
@@ -34,38 +35,92 @@
 <!-- tutup jumbotron -->
 
 <!-- konsultasi -->
-<div class="container mb-5">
-    <h4>Hasil Keadaan yang Dihasilkan :</h4>
+<div class="container mb-4">
+    <h5>Hasil Keadaan yang Dihasilkan</h5>
 </div>
-
 <div class="container">
-    <table class="table table-striped table-light">
+    <table class="table table-bordered">
         <thead>
             <tr>
-                <th scope="col">#</th>
-                <th scope="col">First</th>
-                <th scope="col">Last</th>
-                <th scope="col">Handle</th>
+                <th>DIAGNOSA PENYAKIT :</th>
+            <tr>
+                <th>NILAI ANALISA PAKAR (KEMIRIPAN) :</th>
+            </tr>
+            <tr>
+                <th>NILAI ANALISA PAKAR (KEPASTIAN) :</th>
+            </tr>
+            <tr>
+                <th>SOLUSI PENYAKIT :</th>
+            </tr>
+        </thead>
+    </table>
+
+    <div>
+        <h5 class="mb-4">Faktor-Faktor yang Dipilih</h5>
+    </div>
+    <table class="table table-bordered">
+        <thead>
+            <tr class="table-info">
+                <th scope="col" class="text-center">NO</th>
+                <th scope="col" class="text-center">ID Faktor</th>
+                <th scope="col" class="text-center">Faktor</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
+                <th scope="row" class="text-center">1</th>
+                <td>ID nya</td>
+                <td>Penyakitnya</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div>
+        <h5 class="mb-4">Hasil Perhitungan Nilai Kemiripan</h5>
+    </div>
+    <table class="table table-bordered">
+        <thead>
+            <tr class="table-info">
+                <th scope="col" class="text-center">NO</th>
+                <th scope="col" class="text-center">ID Penyakit</th>
+                <th scope="col" class="text-center">Nama Penyakit</th>
+                <th scope="col" class="text-center">Hasil (Dalam Persen)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row" class="text-center">1</th>
+                <td>ID nya</td>
+                <td>Penyakitnya</td>
+                <td>Hasilnya</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div>
+        <h5 class="mb-4">Hasil Perhitungan Nilai Kepastian</h5>
+    </div>
+    <table class="table table-bordered">
+        <thead>
+            <tr class="table-info">
+                <th scope="col" class="text-center">NO</th>
+                <th scope="col" class="text-center">ID Faktor</th>
+                <th scope="col" class="text-center">Faktor</th>
+                <th scope="col" class="text-center">Nilai Pakar</th>
+                <th scope="col" class="text-center">Kondisi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row" class="text-center">1</th>
+                <td>ID nya</td>
+                <td>Faktor</td>
+                <td>Bobot Pakar</td>
+                <td>Kondisi</td>
             </tr>
             <tr>
-                <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
-            </tr>
-            <tr>
-                <th scope="row">3</th>
-                <td>Larry</td>
-                <td>the Bird</td>
-                <td>@twitter</td>
+                <td colspan="4" class="text-center">Hasil Perhitungan Nilai Kepastian</td>
+                <td>Hasil</td>
             </tr>
         </tbody>
     </table>

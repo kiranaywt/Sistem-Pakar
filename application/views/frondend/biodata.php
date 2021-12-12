@@ -23,7 +23,7 @@
     <div class="container">
         <h2>Konsultasi</h2>
         <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="#">Konsultasi</a></li>
+            <li class="breadcrumb-item"><a href="<?php echo base_url("Frondend/frondend/index")?>">Beranda</a></li>
             <li class="breadcrumb-item active" aria-current="page">Biodata</li>
         </ol>
     </div>
