@@ -61,8 +61,8 @@
     <table class="table table-bordered">
         <thead>
             <tr class="table-info">
-                <th scope="col" class="text-center">NO</th>
-                <th scope="col" class="text-center">ID Faktor</th>
+                <th width="70px" scope="col" class="text-center">NO</th>
+                <th width="150px" scope="col" class="text-center">ID Faktor</th>
                 <th scope="col" class="text-center">Faktor</th>
             </tr>
         </thead>
@@ -70,7 +70,7 @@
             <tr>
                 <th scope="row" class="text-center">1</th>
                 <td>ID nya</td>
-                <td>Penyakitnya</td>
+                <td>Faktor</td>
             </tr>
         </tbody>
     </table>
@@ -81,8 +81,8 @@
     <table class="table table-bordered">
         <thead>
             <tr class="table-info">
-                <th scope="col" class="text-center">NO</th>
-                <th scope="col" class="text-center">ID Penyakit</th>
+                <th width="70px" scope="col" class="text-center">NO</th>
+                <th width="150px" scope="col" class="text-center">ID Penyakit</th>
                 <th scope="col" class="text-center">Nama Penyakit</th>
                 <th scope="col" class="text-center">Hasil (Dalam Persen)</th>
             </tr>
@@ -103,11 +103,11 @@
     <table class="table table-bordered">
         <thead>
             <tr class="table-info">
-                <th scope="col" class="text-center">NO</th>
-                <th scope="col" class="text-center">ID Faktor</th>
-                <th scope="col" class="text-center">Faktor</th>
-                <th scope="col" class="text-center">Nilai Pakar</th>
-                <th scope="col" class="text-center">Kondisi</th>
+                <th width="70px" scope="col" class="text-center">NO</th>
+                <th width="150px" scope="col" class="text-center">ID Faktor</th>
+                <th width="500px" scope="col" class="text-center">Faktor</th>
+                <th width="150px" scope="col" class="text-center">Nilai Pakar</th>
+                <th width="150px" scope="col" class="text-center">Kondisi</th>
             </tr>
         </thead>
         <tbody>

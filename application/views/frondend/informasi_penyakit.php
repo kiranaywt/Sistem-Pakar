@@ -22,7 +22,7 @@
         <div class="container">
             <br><br>
             <h2 height="500px" id="Informasi_Penyakit" class="text-center mb-5">Informasi Penyakit</h2>
-            <div class="row mb-5">
+            <div class="row mb-1">
                 <div class="col-3">
                     <img src="<?php echo base_url() ?>assets/Gambar/foto_frondend/anak.png"
                         style="height:300px; weidht:250px" class="img-thumbnail">
@@ -46,11 +46,15 @@
                         stunting secara dini.
                     </p>
                 </div>
-                <div>
-                    <button type="submit" class="btn btn-primary btn-sm float-right"
+            </div>
+
+            <div class="row mb-4">
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary btn-sm float-right"
                         href="<?php echo base_url("Frondend/frondend/biodata")?>">Mulai
-                        Konsultasi</button>
-                </div>
+                        Konsultasi
+                        </button>
+                    </div>
             </div>
 
             <table class="table table-bordered">
@@ -64,7 +68,7 @@
                 <tbody>
                     <tr>
                         <th scope="row" class="text-center">1</th>
-                        <td class="text-center">Rawan Stunting</td>
+                        <td width="180px" class="text-center">Rawan Stunting</td>
                         <td>Rawan Stunting belum bisa benar-benar dikatakan stunting, namun dilihat dari sisi faktor
                             penyebab stunting
                             dikatakan rawan stunting. </td>
