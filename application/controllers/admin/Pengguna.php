@@ -7,4 +7,9 @@ class Pengguna extends CI_Controller {
 	{
 		$this->load->view('backend/Pengguna_view');
 	}
+
+	public function detail_pengguna()
+	{
+		$this->load->view('backend/detail_pengguna');
+	}
 }

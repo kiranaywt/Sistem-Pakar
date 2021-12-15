@@ -35,7 +35,10 @@
 <!-- konsultasi -->
 <div class="container mb-5">
     <h4>Pilih Sesuai Keadaan :</h4>
-    <p>Pilih beberapa faktor yang sesuai dengan keadaan yang dialami [centang] kemudian pilih kondisi sesuai keadaan
+    <p>Pilih beberapa faktor yang sesuai dengan keadaan yang dialami <img
+            src="<?php echo base_url() ?>assets/Gambar/foto_frondend/centang.png" widht="15px" height="15px" alt="">
+        kemudian pilih kondisi sesuai
+        keadaan
         tersebut</p>
 </div>
 
