@@ -39,22 +39,47 @@
     <h5>Hasil Keadaan yang Dihasilkan</h5>
 </div>
 <div class="container">
-    <table class="table table-bordered">
-        <thead>
-            <tr>
-                <th>DIAGNOSA PENYAKIT :</th>
-            <tr>
-                <th>NILAI ANALISA PAKAR (KEMIRIPAN) :</th>
-            </tr>
-            <tr>
-                <th>NILAI ANALISA PAKAR (KEPASTIAN) :</th>
-            </tr>
-            <tr>
-                <th>SOLUSI PENYAKIT :</th>
-            </tr>
-        </thead>
-    </table>
+    <div class="row mb-4">
+        <div class="col">
+            <div class="card bg-light" style="width:100%; height:400px;">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-3">DIAGNOSA PENYAKIT :</div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <h5><b>cob a</b></h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">NILAI ANALISA KEMIRIPAN :</div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <h5><b>cob b</b></h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">NILAI ANALISA KEPASTIAN :</div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <h5><b>cob c</b></h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">SOLUSI PENYAKIT :</div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <p>coba d</p>
+                        </div>
+                    </div>
 
+                </div>
+            </div>
+        </div>
+    </div>
     <div>
         <h5 class="mb-4">Faktor-Faktor yang Dipilih</h5>
     </div>

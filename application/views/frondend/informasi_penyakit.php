@@ -49,12 +49,12 @@
             </div>
 
             <div class="row mb-4">
-                    <div class="col-12">
-                        <button type="submit" class="btn btn-primary btn-sm float-right"
-                        href="<?php echo base_url("Frondend/frondend/biodata")?>">Mulai
-                        Konsultasi
+                <div class="col-12">
+                    <a href="<?php echo base_url("Frondend/frondend/biodata")?>"><button type="button"
+                            class="btn btn-primary btn-sm float-right">Mulai Konsultasi
                         </button>
-                    </div>
+                    </a>
+                </div>
             </div>
 
             <table class="table table-bordered">

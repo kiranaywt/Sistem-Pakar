@@ -1,6 +1,6 @@
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-info">
     <div class="container">
-        <a class="navbar-brand font-weight-bold text-white" href="#"><img
+        <a class="navbar-brand font-weight-bold text-white" href="<?php echo base_url("Frondend/frondend/index")?>"><img
                 src="<?php echo base_url() ?>assets/Gambar/foto_frondend/logo.png" width="60" height="30"
                 alt="Sistem Pakar Stunting">Sistem Pakar Stunting</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
