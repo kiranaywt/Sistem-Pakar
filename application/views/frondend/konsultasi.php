@@ -33,136 +33,41 @@
 <!-- tutup jumbotron -->
 
 <!-- konsultasi -->
-<div class="container mb-5">
-    <h4>Pilih Sesuai Keadaan :</h4>
-    <p>Pilih beberapa faktor yang sesuai dengan keadaan yang dialami <img
-            src="<?php echo base_url() ?>assets/Gambar/foto_frondend/centang.png" widht="15px" height="15px" alt="">
-        kemudian pilih kondisi sesuai
-        keadaan
-        tersebut</p>
+<div class="container mb-3">
+    <h4>Pilih Sesuai Kondisi :</h4>
+    <p>Jika ada salah satu faktor yang dialami pilih opsi sesuai dengan kondisi. Apabila tidak ada faktor yang
+        dialami dapat mengosongi opsi tersebut.</p>
 </div>
 
 <div class="container">
-    <div class="input-group mb-3">
-        <div class="input-group-prepend">
-            <div class="input-group-text">
-                <input type="checkbox" aria-label="Checkbox for following text input">
-            </div>
+    <?php 
+    $no="1" ;
+    foreach ($data_kuisoner as $data) {
+    ?>
+    <div class="container">
+        <p><b><?php echo $no++ ;?>. <?php echo $data['faktor_penyebab']?></b></p>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="a" checked>
+            <label class="form-check-label" for="exampleRadios1">
+                Pasti
+            </label>
         </div>
-        <input type="text" class="form-control" aria-label="Text input with checkbox">
-        <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">-- Pilih Kondisi --</button>
-    </div>
-    <div class="input-group mb-3">
-        <div class="input-group-prepend">
-            <div class="input-group-text">
-                <input type="checkbox" aria-label="Checkbox for following text input">
-            </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="b">
+            <label class="form-check-label" for="exampleRadios2">
+                Mungkin
+            </label>
         </div>
-        <input type="text" class="form-control" aria-label="Text input with checkbox">
-        <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">-- Pilih Kondisi --</button>
-    </div>
-    <div class="input-group mb-3">
-        <div class="input-group-prepend">
-            <div class="input-group-text">
-                <input type="checkbox" aria-label="Checkbox for following text input">
-            </div>
+        <div class="form-check form-check-inline mb-3">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="c">
+            <label class="form-check-label" for="exampleRadios3">
+                Tidak Pasti
+            </label>
         </div>
-        <input type="text" class="form-control" aria-label="Text input with checkbox">
-        <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">-- Pilih Kondisi --</button>
     </div>
-    <div class="input-group mb-3">
-        <div class="input-group-prepend">
-            <div class="input-group-text">
-                <input type="checkbox" aria-label="Checkbox for following text input">
-            </div>
-        </div>
-        <input type="text" class="form-control" aria-label="Text input with checkbox">
-        <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">-- Pilih Kondisi --</button>
-    </div>
-    <div class="input-group mb-3">
-        <div class="input-group-prepend">
-            <div class="input-group-text">
-                <input type="checkbox" aria-label="Checkbox for following text input">
-            </div>
-        </div>
-        <input type="text" class="form-control" aria-label="Text input with checkbox">
-        <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">-- Pilih Kondisi --</button>
-    </div>
-    <div class="input-group mb-3">
-        <div class="input-group-prepend">
-            <div class="input-group-text">
-                <input type="checkbox" aria-label="Checkbox for following text input">
-            </div>
-        </div>
-        <input type="text" class="form-control" aria-label="Text input with checkbox">
-        <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">-- Pilih Kondisi --</button>
-    </div>
-    <div class="input-group mb-3">
-        <div class="input-group-prepend">
-            <div class="input-group-text">
-                <input type="checkbox" aria-label="Checkbox for following text input">
-            </div>
-        </div>
-        <input type="text" class="form-control" aria-label="Text input with checkbox">
-        <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">-- Pilih Kondisi --</button>
-    </div>
-    <div class="input-group mb-3">
-        <div class="input-group-prepend">
-            <div class="input-group-text">
-                <input type="checkbox" aria-label="Checkbox for following text input">
-            </div>
-        </div>
-        <input type="text" class="form-control" aria-label="Text input with checkbox">
-        <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">-- Pilih Kondisi --</button>
-    </div>
-    <div class="input-group mb-3">
-        <div class="input-group-prepend">
-            <div class="input-group-text">
-                <input type="checkbox" aria-label="Checkbox for following text input">
-            </div>
-        </div>
-        <input type="text" class="form-control" aria-label="Text input with checkbox">
-        <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">-- Pilih Kondisi --</button>
-    </div>
-    <div class="input-group mb-3">
-        <div class="input-group-prepend">
-            <div class="input-group-text">
-                <input type="checkbox" aria-label="Checkbox for following text input">
-            </div>
-        </div>
-        <input type="text" class="form-control" aria-label="Text input with checkbox">
-        <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">-- Pilih Kondisi --</button>
-    </div>
-    <div class="input-group mb-3">
-        <div class="input-group-prepend">
-            <div class="input-group-text">
-                <input type="checkbox" aria-label="Checkbox for following text input">
-            </div>
-        </div>
-        <input type="text" class="form-control" aria-label="Text input with checkbox">
-        <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">-- Pilih Kondisi --</button>
-    </div>
-    <div class="input-group mb-3">
-        <div class="input-group-prepend">
-            <div class="input-group-text">
-                <input type="checkbox" aria-label="Checkbox for following text input">
-            </div>
-        </div>
-        <input type="text" class="form-control" aria-label="Text input with checkbox">
-        <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">-- Pilih Kondisi --</button>
-    </div>
+
+    <?php }?>
+
     <div class="row">
         <div class="col-md-6"></div>
         <div class="col-md-6 mb-5">

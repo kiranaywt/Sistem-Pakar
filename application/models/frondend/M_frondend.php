@@ -18,4 +18,10 @@ class M_frondend extends CI_model
 
 		return $this->db->insert("tabel_user", $data);
 	}
+
+	public function get_data_kuisoner()
+  {
+    $query = $this->db->get('tabel_faktor');
+    return $query->result_array();
+  }
 }

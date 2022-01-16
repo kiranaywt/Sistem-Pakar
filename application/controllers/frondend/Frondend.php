@@ -38,12 +38,12 @@ class Frondend extends CI_Controller {
 	{
 		//$show = $this->M_dashboard;
 
-		// $data = [
-		// 	"data_penyakit" => $show->hitung_data_penyakit()
-		// ];
+		$data = [
+			"data_kuisoner" => $this->M_frondend->get_data_kuisoner()
+		];
 		// var_dump($data);
 		// die();
-		$this->load->view("frondend/konsultasi");
+		$this->load->view("frondend/konsultasi", $data);
 	}
 
     public function hasil_konsultasi()
