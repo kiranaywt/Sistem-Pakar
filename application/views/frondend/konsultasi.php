@@ -35,8 +35,10 @@
 <!-- konsultasi -->
 <div class="container mb-3">
     <h4>Pilih Sesuai Kondisi :</h4>
-    <p>Jika ada salah satu faktor yang dialami pilih opsi sesuai dengan kondisi. Apabila tidak ada faktor yang
-        dialami dapat mengosongi opsi tersebut.</p>
+    <p>Jika <b>ada</b> salah satu faktor yang dialami <b>pilih opsi (Pasti, Kurang Pasti, dan Tidak Pasti)</b> sesuai
+        dengan kondisi.
+        Apabila <b>tidak ada</b> faktor yang
+        dialami dapat <b>mengosongi opsi</b> tersebut.</p>
 </div>
 
 <div class="container">
@@ -55,7 +57,7 @@
         <div class="form-check form-check-inline">
             <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="b">
             <label class="form-check-label" for="exampleRadios2">
-                Mungkin
+                Kurang Pasti
             </label>
         </div>
         <div class="form-check form-check-inline mb-3">
